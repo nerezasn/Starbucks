@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="wrapper header-background">
-      <header>
+      <header id="header">
         <nav class="top-nav">
           <a href="index.html" class="logo">
             <span class="gradient-text">StarBucks</span>
@@ -19,9 +19,9 @@
             <span></span>
           </button>
           <ul class="top-nav-menu">
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="#footer">Select</a></li>
-            <li><a href="#">Shop</a></li>
+            <li><a href="#products">Shop</a></li>
           </ul>
         </nav>
         <div class="hero">
@@ -127,7 +127,7 @@
         </section>
       </div>
       <div class="wrapper products-background">
-        <section class="products">
+        <section class="products" id="products">
           <div class="products-text-content">
             <h2>Our New <span class="gradient-text">Products</span></h2>
             <p>
@@ -358,11 +358,11 @@
               </ul>
             </li>
             <li>
-              <button class="gallery-next" type="button">
+              <a href="#header" class="gallery-next">
                 <svg class="icon">
                   <use href="./public/images/sprite.svg#icon-arrow" />
                 </svg>
-              </button>
+              </a>
             </li>
           </ul>
         </nav>
